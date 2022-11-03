@@ -1,0 +1,150 @@
+/* impostazioni background body */
+body{background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-color: rgba(0,0,0,0.55);
+  /* Bordo foreground */
+    border-color: rgba(0,0,0,0.02);
+    border-style: solid;
+    border-radius: 25px 25px 25px 25px;
+  /* Larghezza ed Altezza Foreground */
+    min-width:55%;
+    min-height: 55% ;
+  /* Margine Foreground */
+    margin-left: 5%;
+    margin-right: 5%%;
+    margin-top: ;
+    margin-bottom: 5%;
+    padding-top: 40px;
+                      }
+
+.foreground {
+/* Background del foreground */
+  background-color: rgba(0,0,0,0.55);
+/* Bordo foreground */
+  border-color: rgba(0,0,0,0.02);
+  border-style: solid;
+  border-radius: 25px 25px 25px 25px;
+/* Larghezza ed Altezza Foreground */
+  min-width: 200px;
+  min-height: 600px;
+/* Margine Foreground */
+  margin-left: 185px;
+  margin-right: 240px;
+  margin-top: -10px;
+  margin-bottom: 55px;
+
+}
+/* logo e Testo Heading */
+#logo {width: 180px;height:80px;
+  position: relative;
+  top: 40px;
+  bottom:25px;
+  right:15px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  margin-top: 5px;
+  padding-left: 335px;
+  padding-top: 5px;;
+  }
+#titolo {text-align:
+  center;
+  position: relative;
+  color:#4abd0c;
+  line-height: 5px;
+  font-family: sans-serif;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-right: 25px;
+}
+/* ContenitoreSelettori */
+#ContenitoreSelettori{
+  position: relative;
+  background-color: #4abd0c;
+  margin-left: 10%;
+  margin-right: 8%;
+  margin-top: 2%;
+  line-height: 5px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+}
+/* Bottoni Selezione */
+.Selettori {
+  height: 5px;
+  width: :5px;
+  line-height: 5px;
+}
+/* categoriaprodotto */
+#MonopattinoGino {
+  position: relative;
+  margin-left: 10%;
+  margin-top: 5px;
+  font-size: 14px;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+}
+#MonopattinoMike {
+  position: relative;
+  margin-left: 0%;
+  margin-top: -15px;
+  font-size: 14px;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+}
+#MonopattinoFede {
+  position: relative;
+  margin-left: 0%;
+  margin-top: -15px;
+  font-size: 14px;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+}
+/* chargebars */
+#ChargeBar1{
+  position: relative;
+  background-color:rgba(226, 168, 67, 1) ;
+  margin-right: 69%;
+  margin-bottom: 35px;
+  margin-top: 2px;
+  padding-top: 12px;
+  padding-bottom: 1%;
+  border-radius: 5px 5px 5px 5px;}
+#ChargeBar2{
+    position: relative;
+    background-color:#4abd0c;
+    margin-right: 42%;
+    margin-bottom: 35px;
+    margin-top: 2px;
+    padding-top: 12px;
+    padding-bottom: 1%;
+    border-radius: 5px 5px 5px 5px;}
+#ChargeBar3{
+    position: relative;
+    background-color:#cb4c3c;
+    margin-right: 82%;
+    margin-bottom: 35px;
+    margin-top: 2px;
+    padding-top: 12px;
+    padding-bottom: 1%;
+    border-radius: 5px 5px 5px 5px;}
+.checkbox {
+  width: 10px;
+}
+.indirizzi {
+  font-family: sans-serif;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  padding-right: 10%;
+  padding-top: 5px;
+  margin-top: 5px;
+
+}
+.StatoCarica {
+  font-family: sans-serif;
+  font-size: 12px;
+  margin-top: 5px;
+
+}
